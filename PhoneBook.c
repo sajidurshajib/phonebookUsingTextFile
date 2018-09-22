@@ -147,7 +147,7 @@ void directory_installation(){
     else{
         mkdir("name");
         mkdir("number");
-        printf("\n\t[+] Directory installation complete...(y)\n[*] Wait for 2 second...");
+        printf("\n\t[+] Directory installation complete...(y)\n\t[*] Wait for 2 second...");
         while(clock()<2500);
         system("cls");
     }
