@@ -147,7 +147,7 @@ void directory_installation(){
     else{
         mkdir("name");
         mkdir("number");
-        printf("\n\t[+] Directory installation complete...(y)/n[*] Wait for 2 second...");
+        printf("\n\t[+] Directory installation complete...(y)\n[*] Wait for 2 second...");
         while(clock()<2500);
         system("cls");
     }
@@ -375,7 +375,6 @@ void delete_data(char search_name[100])
             fgets(store_str,100,fq);
             fclose(fq);
 
-            strcmp(strlwr(store_str),strlwr(search_name))==0
             if(compare_str(store_str,search_name)==1)
             {
                 char new_name[2]= "";
